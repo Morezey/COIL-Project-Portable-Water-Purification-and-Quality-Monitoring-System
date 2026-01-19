@@ -1,9 +1,9 @@
 # Solar-Powered Water Purification & Quality Monitoring System
 
-## 🌊 Project Overview
+## Project Overview
 This repository contains the complete design and source files for an automated, off-grid water purification system. The project integrates multi-stage filtration, UV disinfection, and real-time water quality monitoring (Turbidity, pH, TDS) using an ESP32 microcontroller and solar power.
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 /
@@ -22,7 +22,7 @@ This repository contains the complete design and source files for an automated, 
 └── LICENSE                   # Open-source license information
 ```
 
-## 🚀 Getting Started
+## Getting Started
 *   **Docs:** Start with `docs/system architecture` to understand the system layout.
 *   **Hardware:** Check the `hardware/simulations` folder to view the verified power and actuator circuits.
 
