@@ -26,5 +26,3 @@ This repository contains the complete design and source files for an automated, 
 *   **Docs:** Start with `docs/system architecture` to understand the system layout.
 *   **Hardware:** Check the `hardware/simulations` folder to view the verified power and actuator circuits.
 
-## 📄 License
-This project is licensed under the terms specified in the `LICENSE` file.
