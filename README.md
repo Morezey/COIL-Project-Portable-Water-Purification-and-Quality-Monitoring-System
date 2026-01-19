@@ -1,23 +1,27 @@
-# COIL Project: Water Purification and Quality Monitoring System
+# Solar-Powered Water Purification & Quality Monitoring System
 
-## Overview
-This project aims to create a low-cost, automated water purification system that provides high-quality water while remaining energy-efficient.
+## Project Overview
+This repository contains the complete design and source files for an automated, off-grid water purification system. The project integrates multi-stage filtration, UV disinfection, and real-time water quality monitoring (Turbidity, pH, TDS) using an ESP32 microcontroller and solar power.
 
-## Main Features
-- Automated Filtration cycle and Purification control
-- Sensor-based quality monitoring
-- User interface for both alerts and actuation
+## Repository Structure
 
-## System Architecture
+```text
+/
+├── docs/                     # Project documentation
+│   ├── logical flow charts/  # System operation logic
+│   ├── reviews/              # Design reviews and feedback
+│   └── system architecture/  # High-level system design diagrams
+│
+├── firmware/                 # Source code for the ESP32 microcontroller
+│
+├── hardware/                 # Electronic design files
+│   ├── BOM/                  # Bill of Materials (PCB & External)
+│   ├── datasheets/           # Technical specifications for components
+│   └── simulations/          # Circuit verification files (Proteus)
+│
+└── LICENSE                   # Open-source license information
+```
 
-## Filtration and Purification flow
-
-## Firmwate Features
-
-## Hardware components
-
-## Testing Results
-
-## How to Build
-
-## Feature Work
+## Getting Started
+*   **Docs:** Start with `docs/system architecture` to understand the system layout.
+*   **Hardware:** Check the `hardware/simulations` folder to view the verified power and actuator circuits.
