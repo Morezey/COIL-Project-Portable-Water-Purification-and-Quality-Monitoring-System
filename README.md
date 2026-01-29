@@ -1,15 +1,10 @@
-Here is the corrected Markdown.
-
-The main issue in your original code was that you **forgot to close the code block** (the triple backticks ` ``` `) after the tree structure, which made the "Getting Started" section look like part of the code. I also fixed the typo in "system."
-
-```markdown
 # Solar-Powered Water Purification & Quality Monitoring System
 
 **Project Status:** Active | **Current Release:** Version 4 (Final Design)
 
 ## 📖 Project Overview
 This project implements an automated water purification system with real-time quality monitoring. It features two distinct hardware configurations:
-1.  **Scaled System (Part A):** High-capacity community unit (Seaflo Pump, 4-Stage Filtration + UV).
+1.  **Scaled System (Part A):** High-capacity community unit (Seaflo Pump, 4-Stage Filtration + UV, solar powered).
 2.  **Miniaturized System (Part B):** Portable tactical unit (R385 Pump, UF Membrane, Battery Powered).
 
 ---
@@ -31,7 +26,7 @@ This project implements an automated water purification system with real-time qu
 ├── hardware/                  # Hardware Design Files
 │   ├── BOM/                   # Bill of Materials
 │   ├── datasheets/            # Component Specifications
-│   ├── pcb_design/            # KiCad Project Files
+│   ├── PCB design/            # KiCad Project Files
 │   └── simulations/           # Proteus Circuit Simulations
 │
 ├── LICENSE
