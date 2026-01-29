@@ -1,3 +1,8 @@
+Here is the corrected Markdown.
+
+The main issue in your original code was that you **forgot to close the code block** (the triple backticks ` ``` `) after the tree structure, which made the "Getting Started" section look like part of the code. I also fixed the typo in "system."
+
+```markdown
 # Solar-Powered Water Purification & Quality Monitoring System
 
 **Project Status:** Active | **Current Release:** Version 4 (Final Design)
@@ -12,7 +17,7 @@ This project implements an automated water purification system with real-time qu
 ## 📂 Repository Structure
 
 ```text
-├── docs/                      # sytem design documentation
+├── docs/                      # System design documentation
 │   ├── version 1/             
 │   ├── version 2/             
 │   ├── version 3/             
@@ -26,13 +31,14 @@ This project implements an automated water purification system with real-time qu
 ├── hardware/                  # Hardware Design Files
 │   ├── BOM/                   # Bill of Materials
 │   ├── datasheets/            # Component Specifications
-│   ├── pcb_design/            # KiCad
+│   ├── pcb_design/            # KiCad Project Files
 │   └── simulations/           # Proteus Circuit Simulations
 │
 ├── LICENSE
 └── README.md
+```
 
-## Getting Started
-*   **Docs:** Start with `docs/system architecture` to understand the system layout.
+## 🚀 Getting Started
+*   **Docs:** Start with `docs/version 4/system architecture` to understand the final system layout.
 *   **Hardware:** Check the `hardware/simulations` folder to view the verified power and actuator circuits.
-
+```
