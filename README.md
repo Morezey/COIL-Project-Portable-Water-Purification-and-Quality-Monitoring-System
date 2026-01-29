@@ -4,7 +4,7 @@
 
 ## 📖 Project Overview
 This project implements an automated water purification system with real-time quality monitoring. It features two distinct hardware configurations:
-1.  **Scaled System (Part A):** High-capacity community unit (Seaflo Pump, 4-Stage Filtration + UV).
+1.  **Scaled System (Part A):** High-capacity community unit (Seaflo Pump, 4-Stage Filtration + UV, solar powered).
 2.  **Miniaturized System (Part B):** Portable tactical unit (R385 Pump, UF Membrane, Battery Powered).
 
 ---
@@ -12,7 +12,7 @@ This project implements an automated water purification system with real-time qu
 ## 📂 Repository Structure
 
 ```text
-├── docs/                      # sytem design documentation
+├── docs/                      # System design documentation
 │   ├── version 1/             
 │   ├── version 2/             
 │   ├── version 3/             
@@ -26,13 +26,14 @@ This project implements an automated water purification system with real-time qu
 ├── hardware/                  # Hardware Design Files
 │   ├── BOM/                   # Bill of Materials
 │   ├── datasheets/            # Component Specifications
-│   ├── pcb_design/            # KiCad
+│   ├── PCB design/            # KiCad Project Files
 │   └── simulations/           # Proteus Circuit Simulations
 │
 ├── LICENSE
 └── README.md
+```
 
-## Getting Started
-*   **Docs:** Start with `docs/system architecture` to understand the system layout.
+## 🚀 Getting Started
+*   **Docs:** Start with `docs/version 4/system architecture` to understand the final system layout.
 *   **Hardware:** Check the `hardware/simulations` folder to view the verified power and actuator circuits.
-
+```
