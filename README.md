@@ -1,26 +1,36 @@
 # Solar-Powered Water Purification & Quality Monitoring System
 
-## Project Overview
-This repository contains the complete design and source files for an automated, off-grid water purification system. The project integrates multi-stage filtration, UV disinfection, and real-time water quality monitoring (Turbidity, pH, TDS) using an ESP32 microcontroller and solar power.
+**Project Status:** Active | **Current Release:** Version 4 (Final Design)
 
-## Repository Structure
+## 📖 Project Overview
+This project implements an automated water purification system with real-time quality monitoring. It features two distinct hardware configurations:
+1.  **Scaled System (Part A):** High-capacity community unit (Seaflo Pump, 4-Stage Filtration + UV).
+2.  **Miniaturized System (Part B):** Portable tactical unit (R385 Pump, UF Membrane, Battery Powered).
+
+---
+
+## 📂 Repository Structure
 
 ```text
-/
-├── docs/                     # Project documentation
-│   ├── logical flow charts/  # System operation logic
-│   ├── reviews/              # Design reviews and feedback
-│   └── system architecture/  # High-level system design diagrams
+├── docs/                      # sytem design documentation
+│   ├── version 1/             
+│   ├── version 2/             
+│   ├── version 3/             
+│   └── version 4/            
+│       ├── logical flow charts/
+│       ├── system architecture/
+│       └── system design review-v4.pdf
 │
-├── firmware/                 # Source code for the ESP32 microcontroller
+├── firmware/                  # ESP32 Source Code
 │
-├── hardware/                 # Electronic design files
-│   ├── BOM/                  # Bill of Materials (PCB & External)
-│   ├── datasheets/           # Technical specifications for components
-│   └── simulations/          # Circuit verification files (Proteus)
+├── hardware/                  # Hardware Design Files
+│   ├── BOM/                   # Bill of Materials
+│   ├── datasheets/            # Component Specifications
+│   ├── pcb_design/            # KiCad
+│   └── simulations/           # Proteus Circuit Simulations
 │
-└── LICENSE                   # Open-source license information
-```
+├── LICENSE
+└── README.md
 
 ## Getting Started
 *   **Docs:** Start with `docs/system architecture` to understand the system layout.
