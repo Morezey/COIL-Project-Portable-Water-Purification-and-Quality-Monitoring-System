@@ -30,7 +30,6 @@ This project implements an automated water purification system with real-time qu
 │   └── simulations/           # Proteus Circuit Simulations
 │
 ├── LICENSE
-└── README.md
 ```
 
 ## 🚀 Getting Started
