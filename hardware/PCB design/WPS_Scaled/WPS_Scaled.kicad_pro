@@ -416,6 +416,18 @@
     [
       "577d4cbf-fe80-48ff-bae1-484bd45f479d",
       "Power_Management"
+    ],
+    [
+      "fe581a04-bc27-4407-b3ab-b5dc4f80a83c",
+      "ESP32_Module"
+    ],
+    [
+      "0cdeb075-6cab-4caa-892d-369ef3f29824",
+      "Actuators"
+    ],
+    [
+      "b3353629-47df-4b70-a400-05e208ab1d3c",
+      "sensors"
     ]
   ],
   "text_variables": {}
