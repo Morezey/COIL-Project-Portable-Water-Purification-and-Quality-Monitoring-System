@@ -6,7 +6,49 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 86.36 77.47)
+		(at 29.21 80.01)
+		(size 25.4 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 201 7 1.0000)
+		)
+		(uuid "0cdeb075-6cab-4caa-892d-369ef3f29824")
+		(property "Sheetname" "Actuators"
+			(at 29.21 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Actuators.kicad_sch"
+			(at 29.21 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "WPS_Scaled"
+				(path "/6ff23a5c-68c9-4176-a3db-3a9ab4454c0e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 24.13)
 		(size 19.05 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +64,7 @@
 		)
 		(uuid "577d4cbf-fe80-48ff-bae1-484bd45f479d")
 		(property "Sheetname" "Power_Management"
-			(at 86.36 76.7584 0)
+			(at 123.19 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Management.kicad_sch"
-			(at 86.36 107.2646 0)
+			(at 123.19 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,6 +85,90 @@
 			(project "WPS_Scaled"
 				(path "/6ff23a5c-68c9-4176-a3db-3a9ab4454c0e"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 139.7)
+		(size 26.67 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 73 0 1.0000)
+		)
+		(uuid "b3353629-47df-4b70-a400-05e208ab1d3c")
+		(property "Sheetname" "sensors"
+			(at 116.84 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 116.84 177.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "WPS_Scaled"
+				(path "/6ff23a5c-68c9-4176-a3db-3a9ab4454c0e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 80.01)
+		(size 20.32 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 116 255 0 1.0000)
+		)
+		(uuid "fe581a04-bc27-4407-b3ab-b5dc4f80a83c")
+		(property "Sheetname" "ESP32_Module"
+			(at 119.38 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32_Module.kicad_sch"
+			(at 119.38 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "WPS_Scaled"
+				(path "/6ff23a5c-68c9-4176-a3db-3a9ab4454c0e"
+					(page "3")
 				)
 			)
 		)
