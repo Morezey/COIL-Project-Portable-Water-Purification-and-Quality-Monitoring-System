@@ -25,7 +25,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_issues|850900|304800|8e1eac2d-5a68-4d55-83ca-75c9fad6789e|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -428,6 +433,10 @@
     [
       "b3353629-47df-4b70-a400-05e208ab1d3c",
       "sensors"
+    ],
+    [
+      "74fd21b4-66f8-4241-8cdb-9ed75f143415",
+      "User_Interface"
     ]
   ],
   "text_variables": {}

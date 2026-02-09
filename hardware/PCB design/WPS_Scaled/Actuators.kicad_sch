@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "9f3a37e9-d388-4a62-89a8-2372d4ab3a2f")
 	(paper "A4")
+	(title_block
+		(rev "version 1.0")
+		(company "Makerere University")
+		(comment 1 "Water Purification System")
+	)
 	(lib_symbols
 		(symbol "COIL:2N2222"
 			(exclude_from_sim no)
@@ -1182,6 +1187,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KF128-5.08-2P_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J2"
+				(at -1.016 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "KF128-5.08-2P"
+				(at 3.81 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ":CONN-TH_P5.08_KF128-5.08-2P"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF128-5-08-2P_C474952.html"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C474952"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KF128-5.08-2P_1_0_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KF128-5.08-2P_1_1_1"
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -1725,6 +1853,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0f73ab0-9576-46b7-a5f1-0866d78bf7a7")
+	)
+	(no_connect
+		(at 93.98 48.26)
+		(uuid "492000de-a4ef-4c64-8a0b-9c832a48aa3a")
+	)
+	(no_connect
+		(at 228.6 45.72)
+		(uuid "863770e8-4a02-46e9-ad31-f16580e75b3c")
+	)
+	(no_connect
+		(at 96.52 142.24)
+		(uuid "b2f373ac-6e56-4dfe-9d0f-a6fb6a865aee")
 	)
 	(wire
 		(pts
@@ -4256,6 +4396,7 @@
 		)
 	)
 	(symbol
+		(lib_name "KF128-5.08-2P_1")
 		(lib_id "COIL:KF128-5.08-2P")
 		(at 85.09 30.48 0)
 		(unit 1)
@@ -4283,7 +4424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ":CONN-TH_P5.08_KF128-5.08-2P"
+		(property "Footprint" "COIL:CONN-TH_P5.08_KF128-5.08-2P"
 			(at 85.09 39.37 0)
 			(effects
 				(font
@@ -5562,7 +5703,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8848c0e-9bce-44fb-8c43-b33c8f92d0b4")
-		(property "Reference" "C9"
+		(property "Reference" "C24"
 			(at 56.388 55.626 0)
 			(effects
 				(font
@@ -5616,7 +5757,7 @@
 		(instances
 			(project ""
 				(path "/6ff23a5c-68c9-4176-a3db-3a9ab4454c0e/0cdeb075-6cab-4caa-892d-369ef3f29824"
-					(reference "C9")
+					(reference "C24")
 					(unit 1)
 				)
 			)
