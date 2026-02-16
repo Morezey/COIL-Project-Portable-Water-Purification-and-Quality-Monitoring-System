@@ -1,23 +1,135 @@
-(module easyeda2kicad:LED-TH_BD5.9-P2.54-RD_RED (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "LED-TH_BD5.9-P2.54-RD_RED"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "7e614c9b-b5d6-4ac8-86be-7b9081626271")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-TH_BD5.9-P2.54-RD_RED"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "5dc62380-8425-4d9f-9af9-a7461b570d94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc7b89d9-d982-4a7c-ae41-d729ad176b6b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5434bde8-87b5-40e1-96ce-e862c649a764")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
-	(fp_text reference REF** (at 0 -4.0) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -2.48 -1.49)
+		(end -2.48 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fafc793a-2e06-414d-9a04-3a8c4c68d497")
 	)
-	(fp_text value LED-TH_BD5.9-P2.54-RD_RED (at 0 4.0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_arc
+		(start -2.49366 -1.49366)
+		(mid -2.48634 -1.49366)
+		(end -2.48 -1.49)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b85a0319-7a5c-48be-957c-908b04b79ba1")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_arc
+		(start -2.49 -1.49)
+		(mid 2.938918 -0.010981)
+		(end -2.478718 1.508843)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3c703fc-6855-4666-a7ad-45f8462494e3")
 	)
-	(fp_line (start -2.48 -1.49) (end -2.48 1.50) (layer F.SilkS) (width 0.25))
-	(pad 2 thru_hole circle (at 1.27 0.00 0.00) (size 1.80 1.80) (layers *.Cu *.Mask)(drill 0.9999979999999999))
-	(pad 1 thru_hole circle (at -1.27 0.00 0.00) (size 1.80 1.80) (layers *.Cu *.Mask)(drill 0.9999979999999999))
-	(fp_circle (center -2.50 2.95) (end -2.47 2.95) (layer F.Fab) (width 0.06))
-	(fp_arc (start -2.49 -1.48) (end -2.48 -1.49) (angle -60.00) (layer F.SilkS) (width 0.25))
-	(fp_arc (start 0.02 0.00) (end -2.49 -1.49) (angle 298.18) (layer F.SilkS) (width 0.25))
+	(fp_circle
+		(center -2.5 2.95)
+		(end -2.47 2.95)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "be4dac78-2001-4113-91c0-017ffa4a4351")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a623b3e8-8648-4155-91e8-7b78094904c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.27 0)
+		(size 1.8 1.8)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b818be72-9163-447e-bb86-a19df21f4542")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.8 1.8)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "57136e19-762c-4bf6-b31d-d1ebef046adf")
+	)
+	(embedded_fonts no)
 	(model "/libraries/.3dshapes/LED-TH_BD5.9-P2.54-RD_RED.wrl"
-		(offset (xyz 0.200 -0.000 0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+		(offset
+			(xyz 0.2 -0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
 	)
 )
