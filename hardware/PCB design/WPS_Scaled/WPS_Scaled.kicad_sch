@@ -4,10 +4,316 @@
 	(generator_version "9.0")
 	(uuid "6ff23a5c-68c9-4176-a3db-3a9ab4454c0e")
 	(paper "A4")
+	(title_block
+		(title "Power Management")
+		(rev "version 1.0")
+		(company "Makerere University")
+		(comment 1 "Water Purification System")
+	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 104.14 110.49) (xy 116.84 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a97657c-517e-4c3a-8903-3e6fc97cc69b")
+	)
+	(wire
+		(pts
+			(xy 177.8 80.01) (xy 186.69 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f17f2bd-76f1-43c2-8f8a-ac0c42e5f460")
+	)
+	(wire
+		(pts
+			(xy 177.8 72.39) (xy 186.69 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25186c61-bab5-4e4e-a921-e4fb8d1b5d24")
+	)
+	(wire
+		(pts
+			(xy 177.8 69.85) (xy 186.69 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f451f9-1500-4e00-b977-ddea0af5dd20")
+	)
+	(wire
+		(pts
+			(xy 177.8 97.79) (xy 186.69 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb8de07-065a-4345-9d2d-83e1a9fcae8b")
+	)
+	(wire
+		(pts
+			(xy 77.47 137.16) (xy 77.47 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d96836d-432f-406b-b5c8-4d92ec3e23cb")
+	)
+	(wire
+		(pts
+			(xy 177.8 90.17) (xy 186.69 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f573342-11ff-4986-a7a7-0917ab31e4af")
+	)
+	(wire
+		(pts
+			(xy 104.14 105.41) (xy 116.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b45436-bb07-4333-a022-50fd216cc15a")
+	)
+	(wire
+		(pts
+			(xy 257.81 80.01) (xy 240.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "431a0c9d-59a9-4ba4-9fde-57612667a6a8")
+	)
+	(wire
+		(pts
+			(xy 80.01 137.16) (xy 77.47 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c11b174-5e55-4e7d-b60c-20c100432256")
+	)
+	(wire
+		(pts
+			(xy 102.87 80.01) (xy 116.84 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e50a3a-f381-490d-8d9d-817a4adbf2ae")
+	)
+	(wire
+		(pts
+			(xy 257.81 149.86) (xy 257.81 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bc866f5-fb94-41a3-904f-b1cd35c0251e")
+	)
+	(wire
+		(pts
+			(xy 240.03 77.47) (xy 264.16 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fdc2b3e-5dd3-44a9-9dd1-85cabdf07a99")
+	)
+	(wire
+		(pts
+			(xy 177.8 113.03) (xy 186.69 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730ff5de-7ffa-40f6-a744-3ff8c9e609af")
+	)
+	(wire
+		(pts
+			(xy 177.8 92.71) (xy 186.69 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76208ce1-01c1-4493-8a18-506f201a85d0")
+	)
+	(wire
+		(pts
+			(xy 104.14 100.33) (xy 116.84 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc0e5b2-2c75-4357-b903-e51f80c1ad2d")
+	)
+	(wire
+		(pts
+			(xy 177.8 77.47) (xy 186.69 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818b53f4-961a-48c3-b1af-fe0d213c64d1")
+	)
+	(wire
+		(pts
+			(xy 177.8 85.09) (xy 186.69 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870ea567-10ba-426b-acf4-015a5f7f0d16")
+	)
+	(wire
+		(pts
+			(xy 177.8 107.95) (xy 186.69 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9341fd37-3184-4bbd-a3b0-8bd7bd957507")
+	)
+	(wire
+		(pts
+			(xy 77.47 149.86) (xy 257.81 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f1acf3-f365-4ccf-9c17-1d111f8d9e21")
+	)
+	(wire
+		(pts
+			(xy 71.12 134.62) (xy 80.01 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98655026-4d0b-4957-a3c1-026f96ef85f9")
+	)
+	(wire
+		(pts
+			(xy 264.16 77.47) (xy 264.16 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a10151-35e2-4086-8111-c006fabd0518")
+	)
+	(wire
+		(pts
+			(xy 177.8 102.87) (xy 186.69 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31322de-4f77-4b2d-aeda-e7bd726e2bcc")
+	)
+	(wire
+		(pts
+			(xy 102.87 69.85) (xy 116.84 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae382974-1f92-4567-bbef-4bdee9ccfda8")
+	)
+	(wire
+		(pts
+			(xy 71.12 156.21) (xy 71.12 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ccc1a7-c9a7-4b73-8feb-0fd26323aaed")
+	)
+	(wire
+		(pts
+			(xy 264.16 156.21) (xy 71.12 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba3d46e3-47fd-4550-ae02-90ab41c32e23")
+	)
+	(wire
+		(pts
+			(xy 104.14 97.79) (xy 116.84 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e3c777-044f-464b-9dbe-2c596da87689")
+	)
+	(wire
+		(pts
+			(xy 104.14 124.46) (xy 116.84 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14583f6-1fbb-491f-86aa-012fe4472406")
+	)
+	(wire
+		(pts
+			(xy 104.14 92.71) (xy 116.84 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e9c752-3658-4215-86ec-6b5ea0b1a2f7")
+	)
+	(wire
+		(pts
+			(xy 102.87 74.93) (xy 116.84 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0360d2e-88e2-4062-aad1-b0e893bc0961")
+	)
 	(sheet
-		(at 29.21 80.01)
-		(size 25.4 33.02)
+		(at 80.01 67.31)
+		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18,11 +324,11 @@
 			(type solid)
 		)
 		(fill
-			(color 255 201 7 1.0000)
+			(color 226 255 151 1.0000)
 		)
 		(uuid "0cdeb075-6cab-4caa-892d-369ef3f29824")
 		(property "Sheetname" "Actuators"
-			(at 29.21 79.2984 0)
+			(at 80.01 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +337,42 @@
 			)
 		)
 		(property "Sheetfile" "Actuators.kicad_sch"
-			(at 29.21 113.6146 0)
+			(at 80.01 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ACTUATOR_PUMP_EN" input
+			(at 102.87 69.85 0)
+			(uuid "2d61da24-7ad2-4000-bb5f-15e7d059595b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ACTUATOR_UV_EN" input
+			(at 102.87 74.93 0)
+			(uuid "0aa1410e-c4f1-4220-8862-d7b70114d85c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ACTUATOR_VALVE_EN" input
+			(at 102.87 80.01 0)
+			(uuid "15594e22-eb56-45b6-a43f-7724e27b1d90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -48,8 +384,8 @@
 		)
 	)
 	(sheet
-		(at 123.19 24.13)
-		(size 19.05 29.21)
+		(at 80.01 121.92)
+		(size 24.13 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -60,11 +396,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 233 255 1.0000)
+			(color 197 223 255 1.0000)
 		)
 		(uuid "577d4cbf-fe80-48ff-bae1-484bd45f479d")
 		(property "Sheetname" "Power_Management"
-			(at 123.19 23.4184 0)
+			(at 80.01 121.2084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,12 +409,42 @@
 			)
 		)
 		(property "Sheetfile" "Power_Management.kicad_sch"
-			(at 123.19 53.9246 0)
+			(at 80.01 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SENSOR_CURRENT_N" input
+			(at 80.01 137.16 180)
+			(uuid "7cda634c-2e77-411e-9802-2538e0555bac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSOR_CURRENT_P" input
+			(at 80.01 134.62 180)
+			(uuid "1187f9aa-9a0a-42d7-ad40-dd582c0727c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWITCHED_5V_EN" input
+			(at 104.14 124.46 0)
+			(uuid "c25d4659-b1f3-49da-90c2-c0620a4de6e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -90,8 +456,8 @@
 		)
 	)
 	(sheet
-		(at 116.84 139.7)
-		(size 26.67 36.83)
+		(at 80.01 90.17)
+		(size 24.13 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -102,11 +468,103 @@
 			(type solid)
 		)
 		(fill
-			(color 255 73 0 1.0000)
+			(color 211 255 232 1.0000)
+		)
+		(uuid "74fd21b4-66f8-4241-8cdb-9ed75f143415")
+		(property "Sheetname" "User_Interface"
+			(at 80.01 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "User_Interface.kicad_sch"
+			(at 80.01 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DISPLAY_SCL" input
+			(at 104.14 97.79 0)
+			(uuid "25a66669-5ead-465a-897f-7e2e29ce5562")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DISPLAY_SDA" input
+			(at 104.14 100.33 0)
+			(uuid "2e16a094-1584-4813-be9e-aa2a522b42a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_MAINTENANCE" input
+			(at 104.14 105.41 0)
+			(uuid "4d8b71ed-7e89-4373-9d80-5ec3ec49a926")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_POWER-ON" input
+			(at 104.14 110.49 0)
+			(uuid "81e5f4bf-771c-4346-9031-0061ef136f80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUTTON_SYSTEM_RESET" input
+			(at 104.14 92.71 0)
+			(uuid "da516f43-6268-41db-bab5-e93f397ff0dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "WPS_Scaled"
+				(path "/6ff23a5c-68c9-4176-a3db-3a9ab4454c0e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 66.04)
+		(size 53.34 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 182 255 199 1.0000)
 		)
 		(uuid "b3353629-47df-4b70-a400-05e208ab1d3c")
 		(property "Sheetname" "sensors"
-			(at 116.84 138.9884 0)
+			(at 186.69 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,12 +573,142 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 116.84 177.1146 0)
+			(at 186.69 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SENSOR_COLOR_SCL" input
+			(at 186.69 69.85 180)
+			(uuid "c5558a7c-0c9d-4a79-aad2-c6aa16df46d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSOR_COLOR_SDA" input
+			(at 186.69 72.39 180)
+			(uuid "dd28dacf-d36a-4a7e-aeeb-6b22425ecfe7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSOR_CURRENT_N" input
+			(at 240.03 80.01 0)
+			(uuid "705559d8-5c31-4000-a0f6-9e9ea9f04051")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSOR_CURRENT_P" input
+			(at 240.03 77.47 0)
+			(uuid "bdde7a51-f1c2-48ba-b449-fccb1a9f8b05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSOR_CURRENT_SCL" input
+			(at 186.69 77.47 180)
+			(uuid "75a8b888-577e-4a30-842f-8db59811c11a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSOR_CURRENT_SDA" input
+			(at 186.69 80.01 180)
+			(uuid "83b573ab-d033-426a-8b69-76b33e59b555")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSOR_FLOW_SIGNAL" input
+			(at 186.69 85.09 180)
+			(uuid "a7647182-1ca9-49fd-a089-9ca8f72f96ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSOR_LEVEL_ECHO" input
+			(at 186.69 90.17 180)
+			(uuid "d29154a2-1dca-4d33-a741-c0fbc4beb776")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSOR_LEVEL_TRIG" input
+			(at 186.69 92.71 180)
+			(uuid "7ae37228-7889-48ad-803d-5f5ee1d6c50e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSOR_PH_SIGNAL" input
+			(at 186.69 97.79 180)
+			(uuid "2988e83d-f2ac-444c-8f96-61ae8177053d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSOR_PRESSURE_SIGNAL" input
+			(at 186.69 102.87 180)
+			(uuid "f42df60c-fa57-4617-a42d-0f5d6ff1455e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSOR_TDS_SIGNAL" input
+			(at 186.69 107.95 180)
+			(uuid "699eec53-da16-4414-9f40-8fb8fa678ea3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSOR_TURBIDITY_SIGNAL" input
+			(at 186.69 113.03 180)
+			(uuid "dcf69334-5153-4f60-8de8-7dd980dbcc47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -132,8 +720,8 @@
 		)
 	)
 	(sheet
-		(at 119.38 80.01)
-		(size 20.32 30.48)
+		(at 116.84 66.04)
+		(size 60.96 62.23)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -144,11 +732,11 @@
 			(type solid)
 		)
 		(fill
-			(color 116 255 0 1.0000)
+			(color 255 246 216 1.0000)
 		)
 		(uuid "fe581a04-bc27-4407-b3ab-b5dc4f80a83c")
 		(property "Sheetname" "ESP32_Module"
-			(at 119.38 79.2984 0)
+			(at 116.84 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,12 +745,212 @@
 			)
 		)
 		(property "Sheetfile" "ESP32_Module.kicad_sch"
-			(at 119.38 111.0746 0)
+			(at 116.84 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ACTUATOR_PUMP_EN" input
+			(at 116.84 69.85 180)
+			(uuid "6b9055f3-3f89-4c11-8868-196c262f542d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ACTUATOR_UV_EN" input
+			(at 116.84 74.93 180)
+			(uuid "a5f7b42d-2f60-4efc-8606-140e003a2c07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ACTUATOR_VALVE_EN" input
+			(at 116.84 80.01 180)
+			(uuid "b1e1ede5-3866-4784-b694-5d17959e42c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUTTON_SYSTEM_RESET" input
+			(at 116.84 92.71 180)
+			(uuid "71039ae8-d26b-4e69-b71f-0654cc8a34e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISPLAY_SCL" input
+			(at 116.84 97.79 180)
+			(uuid "7039602b-7780-4bd7-84e0-57eace94621c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISPLAY_SDA" input
+			(at 116.84 100.33 180)
+			(uuid "ac9b0c34-b26d-4a86-825e-ad11354b2df0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_MAINTENANCE" input
+			(at 116.84 105.41 180)
+			(uuid "27cd58bc-8fe0-4b91-b69a-656c5d693583")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_POWER_ON" input
+			(at 116.84 110.49 180)
+			(uuid "e87d4e5c-cbe0-4ff0-9e48-f22533878a04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSOR_COLOR_SCL" input
+			(at 177.8 69.85 0)
+			(uuid "966faa81-3b41-4575-be48-a7f758d89653")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSOR_COLOR_SDA" input
+			(at 177.8 72.39 0)
+			(uuid "9518fd92-d3e2-45b2-8f69-4c418d7c602d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSOR_CURRENT_SCL" input
+			(at 177.8 77.47 0)
+			(uuid "6503b11e-26a6-440a-ba2b-4f792017f77c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSOR_CURRENT_SDA" input
+			(at 177.8 80.01 0)
+			(uuid "2e16d0e5-ed57-40f3-83be-c461a0000411")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSOR_FLOW_SIGNAL" input
+			(at 177.8 85.09 0)
+			(uuid "0298cdb4-46dc-4b7f-a5b5-e4c64b68d8fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSOR_LEVEL_ECHO" input
+			(at 177.8 90.17 0)
+			(uuid "bb8aae0c-52ee-4940-92b7-fc93906d5b26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSOR_LEVEL_TRIG" input
+			(at 177.8 92.71 0)
+			(uuid "643dbbc9-d921-4723-8ff4-1b5310508add")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSOR_PH_SIGNAL" input
+			(at 177.8 97.79 0)
+			(uuid "89f225c3-f4cd-41d0-a7ea-17a10b2ff18e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSOR_PRESSURE_SIGNAL" input
+			(at 177.8 102.87 0)
+			(uuid "d8667703-8634-4e32-b114-bfa970193b0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSOR_TDS_SIGNAL" input
+			(at 177.8 107.95 0)
+			(uuid "e5b26e78-4ab9-46c1-b799-842c450d8ee4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSOR_TURBIDITY_SIGNAL" input
+			(at 177.8 113.03 0)
+			(uuid "cf6bcceb-3a4b-41da-bf28-940cb172db68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWITCHED_5V_EN" input
+			(at 116.84 124.46 180)
+			(uuid "23e30d05-be86-4e1f-b45e-7de703218c8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
